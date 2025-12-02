@@ -1,0 +1,30 @@
+@import './base.css';
+
+:root {
+  --primary: #3b6fb8;
+  --accent: #ffad5c;
+  --bg: #edf3fb;
+  --card: rgba(255, 255, 255, 0.9);
+  --text: #1f2a3d;
+}
+
+body {
+  background: radial-gradient(circle at 15% 25%, rgba(255, 255, 255, 0.65), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(255, 255, 255, 0.5), transparent 40%),
+    linear-gradient(140deg, #e8f1ff 0%, #d6e7fb 40%, #c0d6f2 100%);
+  color: var(--text);
+}
+
+#app {
+  min-height: 100vh;
+  font-weight: normal;
+  color: var(--text);
+}
+
+a {
+  color: #2d5fa7;
+}
+
+a:hover {
+  color: #194b8e;
+}
